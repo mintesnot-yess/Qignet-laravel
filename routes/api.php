@@ -20,8 +20,6 @@ Route::get('/users/{limit}', function ($limit) {
     return response()->json($users);
 })->middleware('guest');
 
-
-
 Route::get('/users-profile/{id}', function ($id) {
     $user = User::find($id);
 

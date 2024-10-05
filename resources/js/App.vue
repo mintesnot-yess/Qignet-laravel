@@ -86,7 +86,8 @@
         <main>
             <header class="main_navs">
                 <div class="navs">
-                    <span class="btn" onclick="all_songs()"> New Release </span>
+
+                    <router-link to="/music" class="btn"> New Release </router-link>
                     <span class="ex_btns">
                         <button onclick="aside_bar()" class="btn logo">
                             <i class="fs-1 fa fa-bars" aria-hidden="true"></i>

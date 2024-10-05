@@ -2426,7 +2426,8 @@ main .cards_contaier .admin {
 @keyframes page-transition-animation {
     from {
         opacity: 0;
-        scale: 1.02;
+        transform: translateX(1%);
+        filter: blur(10px);
 
     }
 }
