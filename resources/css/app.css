@@ -21,6 +21,10 @@
     display: none;
 }
 
+* a {
+    color: var(--white_20);
+}
+
 :root {
     --black_90: #555555;
     --black_80: #212121;
@@ -29,7 +33,7 @@
     --white_95: #ffffffef;
     --white_80: #d8d8d8e8;
     --white_50: #d8d8d893;
-    --white_20: #d8d8d86e;
+    --white_20: #dbdbdbd7;
     --opacity_90_white: #ffffff2e;
     --opacity_90_black: #00000037;
     --focus_color: #ffa500;
@@ -834,8 +838,13 @@ main .card_container .card span .player_btn {
 
 
     a {
-        color: transparent;
         width: fit-content;
+        margin: 5px 0;
+        cursor: pointer;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 

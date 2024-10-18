@@ -6,27 +6,25 @@
                 <span>QIGNET</span>
             </a>
         </ul>
-
         <ul>
-            <button title="Home" class="side_nav active">
+            <router-link active-class="active" to="/" title="Home" class="side_nav " exact>
                 <i class="fa fa-home" aria-hidden="true"></i>
                 <span> home </span>
-            </button>
-
-            <button title="search" class="side_nav" value="-">
+            </router-link>
+            <router-link active-class="active" to="/search" title="search" class="side_nav" value="-">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 <span> search </span>
-            </button>
+            </router-link>
 
-            <button title="Musics" class="side_nav">
+            <router-link active-class="active" to="/music" title="Musics" class="side_nav">
                 <i class="fa fa-music" aria-hidden="true"></i>
                 <span> musics </span>
-            </button>
+            </router-link>
 
-            <button title="recently played" class="side_nav">
+            <router-link active-class="active" to="recently-played" title="recently played" class="side_nav">
                 <i class="fa fa-clock" aria-hidden="true"></i>
                 <span> recently played </span>
-            </button>
+            </router-link>
         </ul>
     </aside>
 </template>

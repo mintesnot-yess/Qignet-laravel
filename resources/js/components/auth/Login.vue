@@ -1,6 +1,6 @@
 <template>
 
-    <div class="auth_form_container">
+    <div class="auth_form_container page-transition ">
 
         <form method="post">
 
@@ -28,7 +28,7 @@
                     <p>email id</p>
                 </span>
 
-                <input type="text" name="email" id="email" required="">
+                <input type="text" name="email" id="email" required>
             </label>
             <label for="password">
                 <span>
@@ -37,7 +37,7 @@
 
                 </span>
 
-                <input type="password" name="password" id="password" required="">
+                <input type="password" name="password" id="password" required>
             </label>
 
             <button name="submit" type="submit">login</button>
