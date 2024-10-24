@@ -2,9 +2,8 @@
     <div class="artist_page page-transition" style="">
         <div class="artist_page_container">
             <div class="artist_page" v-for=" user in users" :key="user.id" style="   background-position:
-                center; background-size: cover; background-repeat: no-repeat; " :style="`
-                background-image:linear-gradient(transparent, var(--black_50)),
-                url(/assets/avatars/${user.profile_image});`">
+                center; background-size: cover; background-repeat: no-repeat; "
+                :style="`background-image:linear-gradient(transparent, var(--black_50)), url(/assets/avatars/${user.profile_image});`">
                 <span>
                     <h1>{{ user.name }}</h1>
                 </span>

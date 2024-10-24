@@ -6,6 +6,7 @@ import ArtistDetail from "../components/container/Artist.vue";
 import NotFoundPage from "../components/NotFoundPage.vue";
 import UserLogin from "../components/auth/Login.vue";
 import UserRegister from "../components/auth/Register.vue";
+import UserDetail from "../components/container/UserDetail.vue";
 
 const routes = [
   {
@@ -36,6 +37,10 @@ const routes = [
   {
     path: "/register",
     component: UserRegister
+  },
+  {
+    path: "/user-detail",
+    component: UserDetail
   },
   {
     path: "/:pathName(.*)",

@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/{any}', function () {
+Route::get('/', function () {
     return view('app');
-})->where("any", ".*");
+});
+Route::get('/login', function () {
+    return 'login page';
+});
+//login user
+Route::post('/login', 'Auth\LoginController@login');
